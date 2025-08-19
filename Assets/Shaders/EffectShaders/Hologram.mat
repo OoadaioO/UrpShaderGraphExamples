@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2424915530789529908
+--- !u!114 &-8541804404919558012
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,17 +20,16 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SimpleTestMat
-  m_Shader: {fileID: -6465566751694194690, guid: f21d3e9773df4443fa104174bd6d77d2, type: 3}
+  m_Name: Hologram
+  m_Shader: {fileID: -6465566751694194690, guid: eb4ae2222664c4e39b83fa411a948741, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
+  m_CustomRenderQueue: 2988
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -39,10 +38,6 @@ Material:
     m_TexEnvs:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 4c1e50c875186434990864544356a3d7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_c229e120188e48ef86e805b66d70893b_Texture_1_Texture2D:
-        m_Texture: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -59,30 +54,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Amplitude: 1.16
-    - _Blend: 0
-    - _CastShadows: 1
-    - _Cull: 0
-    - _DstBlend: 10
-    - _FoamHeight: 0.113
-    - _Height: -0.12
-    - _Indensity: 8.08
-    - _NosieSpeed: 0.4
+    - _BaseSpeed: 0.62
+    - _DistortionScale: 1
+    - _DistortionScrollSpeed: 1
+    - _DistortionStrength: 1
+    - _Glitch_Amount: 1
+    - _Glitch_Strength: 2
     - _QueueControl: 0
-    - _QueueOffset: 0
-    - _Slash: 0
-    - _SrcBlend: 5
-    - _Surface: 1
-    - _WaveLength: 1.18
-    - _Y: 19.99
-    - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
+    - _QueueOffset: -12
+    - _Segment: 70
+    - _SegmentSmall: 1
     m_Colors:
-    - _Foam_Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 0.5686275}
-    - _Liquid_Color: {r: 0.46698105, g: 0.7227956, b: 1, a: 0}
-    - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Step: {r: 0.55, g: 0.87, b: 0, a: 0}
+    - _Color: {r: 9.276041, g: 19.284775, b: 1.728352, a: 1}
   m_BuildTextureStacks: []

@@ -1,6 +1,6 @@
 # Unity Shader Graph Examples
 
-## 深度
+## [深度](./Assets/Shaders/Depth/)
 
 - 简单深度
 - 力场
@@ -30,6 +30,13 @@
 - 传送门
 - 漩涡
 - 极坐标形状生成
+
+## [效果案例](./Assets/Shaders/EffectShaders/)
+
+- 刀光
+- 简单液体
+- 全息影像
+
 
 ## 参考
 
