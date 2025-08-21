@@ -23,7 +23,7 @@
 
 ## [CameraSortingLayer](./Assets/Shaders/CameraSortingLayers/)
 
-- 水纹理扭曲效果
+- [水纹理扭曲效果](https://www.youtube.com/watch?v=-spc1GJAtLY)
 
 ## [极坐标应用 PolarCoordinates](./Assets/Shaders/PolarCoordinates/)
 
@@ -43,6 +43,7 @@
   利用 Render Feature -> Render Objects 特性下的 stencil 实现遮挡特效
 - 基于SDF的纹理描边
   - [SDF 透明通道纹理生成器](./Assets/Editor/SDFGenerator.cs)
+- JellyFish 水母制作
 
 
 
