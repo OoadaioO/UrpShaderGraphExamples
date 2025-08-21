@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8631376013581682462
+--- !u!114 &-6420240534190874537
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LiquidMat
-  m_Shader: {fileID: -6465566751694194690, guid: cd71e9bf1652d462a9a290c360b5ba3b, type: 3}
+  m_Name: ToonShaderMat
+  m_Shader: {fileID: -6465566751694194690, guid: f739fb9136cc54f799247699f0acee73, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -36,6 +36,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -50,11 +54,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FoamHeight: 0.17
-    - _Height: -0.12
+    - _Antialiasing: 0.5
+    - _Glossiness: 300
+    - _OutlineSize: 1.21
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Foam_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
-    - _Liquid_Color: {r: 0.31278917, g: 0.36307406, b: 0.6698113, a: 1}
+    - _Dark_Color: {r: 0, g: 0.3584906, b: 0.002616689, a: 1}
+    - _Light_Color: {r: 0.021804927, g: 0.6603774, b: 0.021804927, a: 1}
+    - _OutlineColor: {r: 0.5566038, g: 0.09189212, b: 0.09189212, a: 0}
+    - _Specular: {r: 0, g: 0.768, b: 0.016605468, a: 1}
   m_BuildTextureStacks: []

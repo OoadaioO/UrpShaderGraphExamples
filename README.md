@@ -31,13 +31,25 @@
 - 漩涡
 - 极坐标形状生成
 
+
+
 ## [效果案例](./Assets/Shaders/EffectShaders/)
 
 - 刀光
 - 简单液体
 - 全息影像
+- 卡通渲染： 卡通着色、高光、简单描边
+- Sprite Stencil
+  利用 Render Feature -> Render Objects 特性下的 stencil 实现遮挡特效
+- 基于SDF的纹理描边
+  - [SDF 透明通道纹理生成器](./Assets/Editor/SDFGenerator.cs)
+
 
 
 ## 参考
 
 https://www.cyanilux.com/contents/
+
+
+
+
