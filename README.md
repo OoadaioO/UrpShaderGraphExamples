@@ -44,6 +44,9 @@
 - 基于SDF的纹理描边
   - [SDF 透明通道纹理生成器](./Assets/Editor/SDFGenerator.cs)
 - JellyFish 水母制作
+- 火焰效果
+- 简单云雾
+
 
 
 
