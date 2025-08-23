@@ -30,7 +30,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -74,16 +74,20 @@ Material:
     - _Floor: 2
     - _FoamHeight: 0.113
     - _Fresnel: 1
+    - _Fresnel_Power: 2.6
+    - _Fresnel_Strength: 3.84
     - _Glossiness: 331.8
     - _Height: -0.12
     - _HeightLightPower: 2
     - _Indensity: 6.85
     - _NosieSpeed: 0.4
+    - _Opacity: 0.57
     - _OutlineSize: 6.03
     - _PageCount: 4
     - _PageIndex: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Refraction_Strength: 0.3
     - _Slash: 0
     - _SrcBlend: 5
     - _Step: 3
@@ -97,10 +101,12 @@ Material:
     m_Colors:
     - _Abedo: {r: 0.23375754, g: 0.5133981, b: 0.9716981, a: 0}
     - _Albedo: {r: 0.018467424, g: 0.7830189, b: 0.24823458, a: 0.3058824}
-    - _Color: {r: 10.716979, g: 0.55606955, b: 0.55606955, a: 0}
+    - _Color: {r: 0.24951048, g: 0.48679394, b: 0.5943396, a: 1}
+    - _Color_1: {r: 0.19410527, g: 0.3760789, b: 0.461, a: 1}
     - _Dark: {r: 0.22340104, g: 0.48900002, b: 0.047162436, a: 0}
     - _Dark_Color: {r: 0.08325843, g: 0.15775275, b: 0.39, a: 0}
     - _Foam_Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 0.5686275}
+    - _Glow: {r: 1, g: 1, b: 1, a: 0}
     - _Highlight: {r: 0.4224813, g: 0.5985993, b: 0.8867924, a: 0}
     - _Light: {r: 0.3564683, g: 0.7735849, b: 0.0693307, a: 0}
     - _LightColor: {r: 0.764151, g: 0.2593576, b: 0.18382876, a: 0}
