@@ -46,11 +46,13 @@
 - JellyFish 水母制作
 - 火焰效果
 - 简单云雾
+- 水晶
+- 软树叶
 
 
 
 
-## 参考
+## 原文
 
 https://www.cyanilux.com/contents/
 

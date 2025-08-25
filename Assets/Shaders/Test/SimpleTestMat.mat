@@ -74,19 +74,24 @@ Material:
     - _Floor: 2
     - _FoamHeight: 0.113
     - _Fresnel: 1
+    - _FresnelPower: 1.24
+    - _FresnelStrength: 0.73
     - _Fresnel_Power: 2.6
     - _Fresnel_Strength: 3.84
     - _Glossiness: 331.8
     - _Height: -0.12
     - _HeightLightPower: 2
     - _Indensity: 6.85
+    - _Lerp: 0.07
+    - _NormalWeight: 0.78
     - _NosieSpeed: 0.4
-    - _Opacity: 0.57
+    - _Opacity: 0.056
     - _OutlineSize: 6.03
     - _PageCount: 4
     - _PageIndex: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RefractionStrength: 8.4
     - _Refraction_Strength: 0.3
     - _Slash: 0
     - _SrcBlend: 5
