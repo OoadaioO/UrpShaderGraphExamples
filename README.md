@@ -1,39 +1,30 @@
 # Unity Shader Graph Examples
 
-## [深度](./Assets/Shaders/Depth/)
-
-- 简单深度
-- 力场
-
-## [顶点移动](./Assets/Shaders/VertexDisplacement/)
-
-### 法线重建
-
-- 片元阶段重建
-  - 平面法线
-  - 高度法线
-- 顶点重建
-  - 切线和副切线相对移动法线
-
-#### 案例
-- 挥舞翅膀的蝴蝶
-- 摆动的鱼
-- 摇晃的草
+- 深度
+  - 简单深度
+  - 力场
 
 
-## [CameraSortingLayer](./Assets/Shaders/CameraSortingLayers/)
-
+- CameraSortingLayer
 - [水纹理扭曲效果](https://www.youtube.com/watch?v=-spc1GJAtLY)
 
-## [极坐标应用 PolarCoordinates](./Assets/Shaders/PolarCoordinates/)
-
-- 传送门
-- 漩涡
-- 极坐标形状生成
-
+- 极坐标应用 PolarCoordinates
+  - 传送门
+  - 漩涡
+  - 极坐标形状生成
 
 
-## [效果案例](./Assets/Shaders/EffectShaders/)
+- 顶点移动
+  - 法线重建
+    - 片元阶段重建
+      - 平面法线
+      - 高度法线
+    - 顶点重建
+      - 切线和副切线相对移动法线
+
+    - 挥舞翅膀的蝴蝶
+    - 摆动的鱼
+    - 摇晃的草
 
 - 刀光
 - 简单液体
@@ -49,13 +40,16 @@
 - 水晶
 - 软树叶
 - 神光
+- 瀑布穿透
+- 箭头
 
 
 
+## 部分原文链接
 
-## 原文
+- https://www.cyanilux.com/contents/
 
-https://www.cyanilux.com/contents/
+
 
 
 
