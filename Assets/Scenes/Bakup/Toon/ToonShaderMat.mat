@@ -54,8 +54,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Antialiasing: 0.5
-    - _Glossiness: 300
+    - _Antialiasing: 2.81
+    - _Glossiness: 111.8
     - _OutlineSize: 1.21
     - _QueueControl: 0
     - _QueueOffset: 0

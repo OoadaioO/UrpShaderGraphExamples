@@ -2493,8 +2493,8 @@
     "m_ObjectId": "5d797ba84b3d4456979ad4f6ca2b690d",
     "m_Title": "Sphere Based normals",
     "m_Position": {
-        "x": -2129.5,
-        "y": 335.5
+        "x": -2129.500244140625,
+        "y": 335.5000305175781
     }
 }
 
@@ -4121,7 +4121,7 @@
     "m_Title": "Position Based",
     "m_Position": {
         "x": -2751.5,
-        "y": -138.0
+        "y": -138.00003051757813
     }
 }
 
